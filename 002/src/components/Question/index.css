@@ -1,0 +1,27 @@
+
+.question{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.question button {
+    width: 50%;
+
+    background-color: rgb(73, 73, 73);
+    color: white;
+    font-size: x-large;
+    font-family: cursive;
+    border:  3px solid white;
+    margin: 0.5rem;
+}
+
+.answer{
+ border-color:  rgb(255, 60, 0) !important;   
+}
+
+#correct{
+    border-color: white !important;
+}

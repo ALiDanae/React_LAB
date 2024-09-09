@@ -1,0 +1,16 @@
+body{
+  background: rgb(197, 195, 195);
+}
+.point{
+display: flex;
+justify-content: space-between;
+}
+.point button{
+  width: 3rem;
+  margin-right: 3rem;
+  height: 1.5rem;
+  background: rgb(73, 73, 73);
+  color: white;
+  border: 2px solid rgb(73, 73, 73);
+  border-radius: 20px;
+}
