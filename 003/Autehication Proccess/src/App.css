@@ -1,0 +1,31 @@
+body{
+  background-color: #DEE5D4;
+  font-family: 'Courier New', Courier, monospace;
+}
+header{
+  background-color:#8EACCD ;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+header h1{
+  margin: 20px;
+}
+span{
+  border: 3px solid #FEF9D9;
+  border-radius: 50px;
+}
+.loginForm{
+  margin: 2rem auto;
+  display: block;
+  text-align: center;
+  width: 40%;
+  border: 4px solid #8EACCD;
+  border-radius: 30px;
+  height: 15rem;
+}
+label , input{
+  margin-top: 0.5rem;
+  color: black;
+  font-size: x-large;
+}
